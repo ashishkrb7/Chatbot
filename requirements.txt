@@ -9,7 +9,6 @@ joblib==0.15.1
 textblob
 vaderSentiment
 wikipedia
-re
 tensorflow==2.0
 numpy
 MarkupSafe==1.1.1
