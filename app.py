@@ -16,6 +16,13 @@ import numpy as np
 import re
 import sys
 import json
+import os
+import psycopg2
+
+DATABASE_URL = os.environ['DATABASE_URL']
+
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+
 DEFAULTstr=" "
 with open('./model10102019/tokenizer.pickle', 'rb') as handle:
     tokenizer1 = pickle.load(handle)
