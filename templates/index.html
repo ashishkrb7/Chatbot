@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application developed by Ashish</title>
+</head>
+
+<body>
+
+    <div style="color:rgb(6, 4, 8)">
+        <form action="{{ url_for('Bot')}}" method="post">
+            <h1><u>Chat with me</u></h1>  
+            <img src="https://scx1.b-cdn.net/csz/news/800/2019/3-robot.jpg" alt="Bot" width="300" height="200">
+            <h3><label for="first">You:</label>
+            
+            <input id="first" name="Sentence" type="text "></h3>
+            <br><br><button id="sub" type="submit ">Submit</button>
+            <br>
+        </form>
+        <br><br><h2>{{ Input }}</h2>
+        <br><h2>{{ Output }}</h2>
+        <br><h2>{{ Prediction }}</h2>
+        </div>
+        <marquee scrolldelay="50" scrollamount="10" truespeed>Thankyou </marquee><br><br>
+
+        <div class="copyright"> <span class="pull-right">&#169;</span>Copyright 2020 | All Rights Reserved  -- Developed by <a href="https://www.linkedin.com/in/ashishk766/">Ashish</a></div>
+
+    <style>
+        body {
+            background-color:rgb(185, 195, 204);
+            text-align: center;
+            padding: 0px;
+        }
+        
+        #first {
+            border-radius: 16px;
+            height: 20px;
+            font-size: 25px;
+            text-align: left;
+            width: 85%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: content-box;
+        }
+        #first:hover {
+            background-color: rgb(80, 255, 211);
+        }
+        #sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+        
+        #sub:hover {
+            background-color: rgb(57, 255, 7);
+        }
+        #copyright {
+            float: left;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            text-align: center;
+            bottom: 0px;
+            width: 100%;
+        }
+    </style>
+</body>
+
+</html>
