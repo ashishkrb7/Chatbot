@@ -15,7 +15,7 @@ psycopg2
 MarkupSafe==1.1.1
 requests==2.24.0
 threadpoolctl==2.1.0
-urllib3==1.25.9
+urllib3==1.26.5
 Werkzeug==1.0.1
 wincertstore==0.2
 gunicorn
